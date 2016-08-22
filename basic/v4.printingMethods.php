@@ -41,7 +41,7 @@
 			// Main diferences between print and echo
 
 			echo $name, $age; // Echo can print a succession of variables in this way and not with print.
-			echo "<br>"
+			echo "<br>";
 			echo print $name . "<br>"; // Print is a function that always return 1, not an expression like echo. Print takes longer to return the result because it has to make internal processes more. Echo consumes less resources machine and it has a more professional use.
 	?>
 </body>
