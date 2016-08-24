@@ -59,7 +59,7 @@
 </html>
 
 <?php
-
+	// isset devuelve true si se ha pulsado el boton que se indica como parametro
 	if(isset($_POST["enviando"])) {
 
 		$usuario = $_POST["nombre_usuario"];
